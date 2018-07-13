@@ -17,7 +17,7 @@ import Prelude
 import Data.Vector (Vec(Vec))
 import Data.TypeNat (Two)
 import Data.Array (insertAt, length, unsafeIndex)
-import Data.Maybe(fromJust)
+import Data.Maybe (fromJust)
 import Extensions (fail)
 import Partial.Unsafe (unsafePartial)
 
