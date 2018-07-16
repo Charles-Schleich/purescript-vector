@@ -18,7 +18,6 @@ import Data.Vector (Vec(Vec))
 import Data.TypeNat (Four)
 import Data.Array (insertAt, length, unsafeIndex)
 import Data.Maybe (fromJust)
--- import Extensions (fail)
 import Partial.Unsafe (unsafePartial,unsafeCrashWith)
 
 type Vec4 = Vec Four

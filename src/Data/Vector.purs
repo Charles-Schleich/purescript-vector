@@ -23,8 +23,6 @@ import Type.Proxy (Proxy(..))
 import Data.Unfoldable (replicate)
 import Partial.Unsafe (unsafeCrashWith)
 
-
-
 newtype Vec s a = Vec (Array a)
 
 fill :: forall s a. EuclideanRing a => Sized s => a -> Vec s a
